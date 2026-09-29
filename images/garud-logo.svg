@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Majestic Golden Amber to Construction Orange Gradient -->
+    <linearGradient id="garudGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="45%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ff6a00"/>
+    </linearGradient>
+
+    <!-- Deep Structural Steel Shadow Gradient -->
+    <linearGradient id="steelGlow" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f1e36"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <linearGradient id="accentOrange" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff8c00"/>
+      <stop offset="100%" stop-color="#e05500"/>
+    </linearGradient>
+
+    <filter id="logoShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- ================= EMBLEM: EAGLE & ARCHITECTURAL BUILDINGS HYBRID ================= -->
+  <g transform="translate(10, 8)" filter="url(#logoShadow)">
+    
+    <!-- Outer Diamond / Industrial Foundation Shield Base -->
+    <polygon points="52,4 100,52 52,100 4,52" fill="url(#steelGlow)" stroke="url(#garudGold)" stroke-width="2.5" stroke-linejoin="round"/>
+    
+    <!-- Central Skyscraper / Tower Spine (Eagle Body) -->
+    <polygon points="52,16 60,32 60,86 52,94 44,86 44,32" fill="url(#garudGold)"/>
+    <line x1="52" y1="20" x2="52" y2="92" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.7"/>
+
+    <!-- Left Wing Feathers / Stepped Building Towers -->
+    <!-- Tower 1 / Inner Wing Feather -->
+    <polygon points="41,34 32,46 32,82 41,85" fill="url(#garudGold)" fill-opacity="0.95"/>
+    <polygon points="30,44 20,56 20,78 30,81" fill="url(#garudGold)" fill-opacity="0.8"/>
+    <!-- Outer Wing Tip / Angled Roof Gable -->
+    <polygon points="18,54 8,64 12,74 18,76" fill="url(#accentOrange)"/>
+
+    <!-- Right Wing Feathers / Stepped Building Towers -->
+    <!-- Tower 1 / Inner Wing Feather -->
+    <polygon points="63,34 72,46 72,82 63,85" fill="url(#garudGold)" fill-opacity="0.95"/>
+    <polygon points="74,44 84,56 84,78 74,81" fill="url(#garudGold)" fill-opacity="0.8"/>
+    <!-- Outer Wing Tip / Angled Roof Gable -->
+    <polygon points="86,54 96,64 92,74 86,76" fill="url(#accentOrange)"/>
+
+    <!-- Eagle Head & Sharp Vision Beak Crown (Roof Apex) -->
+    <!-- Crown / Pitched Roof Ridge -->
+    <polygon points="52,8 64,22 52,28 40,22" fill="#ffffff" fill-opacity="0.95"/>
+    <!-- Powerful Eagle Eye & Beak Geometry -->
+    <polygon points="52,14 58,23 52,32 46,23" fill="url(#accentOrange)"/>
+    <circle cx="52" cy="22" r="2" fill="#ffffff"/>
+
+    <!-- Structural Grid Lines inside Foundation (Building Windows / Foundation Beams) -->
+    <line x1="46" y1="46" x2="58" y2="46" stroke="#0a1322" stroke-width="1.8"/>
+    <line x1="46" y1="58" x2="58" y2="58" stroke="#0a1322" stroke-width="1.8"/>
+    <line x1="46" y1="70" x2="58" y2="70" stroke="#0a1322" stroke-width="1.8"/>
+
+    <line x1="34" y1="56" x2="40" y2="56" stroke="#0a1322" stroke-width="1.5"/>
+    <line x1="34" y1="68" x2="40" y2="68" stroke="#0a1322" stroke-width="1.5"/>
+
+    <line x1="64" y1="56" x2="70" y2="56" stroke="#0a1322" stroke-width="1.5"/>
+    <line x1="64" y1="68" x2="70" y2="68" stroke="#0a1322" stroke-width="1.5"/>
+  </g>
+
+  <!-- ================= TYPOGRAPHY & BRAND WORDMARK ================= -->
+  <g transform="translate(130, 24)">
+    <!-- Primary Brand Name: GARUD -->
+    <text x="0" y="50" font-family="'Barlow Condensed', 'Oswald', sans-serif" font-size="56" font-weight="900" letter-spacing="3.5" fill="currentColor">
+      GARUD
+    </text>
+    
+    <!-- Architectural Dot -->
+    <circle cx="166" cy="46" r="6" fill="url(#garudGold)"/>
+
+    <!-- Secondary Category Descriptor: HOMES • ROADS • BUILDINGS -->
+    <g transform="translate(2, 70)">
+      <rect x="0" y="-12" width="375" height="20" rx="3" fill="#ff6a00" fill-opacity="0.15"/>
+      <text x="8" y="2" font-family="'Inter', sans-serif" font-size="11.5" font-weight="800" letter-spacing="4.5" fill="url(#garudGold)">
+        HOMES • ROADS • BUILDINGS
+      </text>
+    </g>
+  </g>
+</svg>

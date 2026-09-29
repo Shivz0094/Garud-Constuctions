@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="gGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ff6a00"/>
+    </linearGradient>
+    <linearGradient id="gDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1322"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Industrial Diamond Shield -->
+  <polygon points="50,4 96,50 50,96 4,50" fill="url(#gDark)" stroke="url(#gGold)" stroke-width="2.5" stroke-linejoin="round"/>
+  
+  <!-- Central Eagle Body & Tower Spine -->
+  <polygon points="50,16 58,32 58,84 50,90 42,84 42,32" fill="url(#gGold)"/>
+  <line x1="50" y1="20" x2="50" y2="88" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.8"/>
+
+  <!-- Left Eagle Wing / Stepped Building Towers -->
+  <polygon points="39,34 30,46 30,80 39,83" fill="url(#gGold)" fill-opacity="0.95"/>
+  <polygon points="28,44 18,56 18,76 28,79" fill="url(#gGold)" fill-opacity="0.8"/>
+  <polygon points="16,54 6,64 10,74 16,76" fill="#e05500"/>
+
+  <!-- Right Eagle Wing / Stepped Building Towers -->
+  <polygon points="61,34 70,46 70,80 61,83" fill="url(#gGold)" fill-opacity="0.95"/>
+  <polygon points="72,44 82,56 82,76 72,79" fill="url(#gGold)" fill-opacity="0.8"/>
+  <polygon points="84,54 94,64 90,74 84,76" fill="#e05500"/>
+
+  <!-- Eagle Head & Roof Gable -->
+  <polygon points="50,8 62,22 50,28 38,22" fill="#ffffff"/>
+  <polygon points="50,14 56,23 50,32 44,23" fill="#e05500"/>
+  <circle cx="50" cy="22" r="2" fill="#ffffff"/>
+
+  <!-- Building Windows / Cross Braces -->
+  <line x1="44" y1="46" x2="56" y2="46" stroke="#0a1322" stroke-width="1.5"/>
+  <line x1="44" y1="58" x2="56" y2="58" stroke="#0a1322" stroke-width="1.5"/>
+  <line x1="44" y1="70" x2="56" y2="70" stroke="#0a1322" stroke-width="1.5"/>
+</svg>
